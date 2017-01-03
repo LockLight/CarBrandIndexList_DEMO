@@ -7,25 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD09ED871E1BB8630010A137 /* LLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD09ED861E1BB8630010A137 /* LLViewController.m */; };
+		CD09ED891E1BBA970010A137 /* cars_simple.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD09ED881E1BBA970010A137 /* cars_simple.plist */; };
+		CD09ED8C1E1BBBE80010A137 /* LLCarGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = CD09ED8B1E1BBBE80010A137 /* LLCarGroup.m */; };
 		CDF98D111E1BB36500CE90C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF98D101E1BB36500CE90C0 /* main.m */; };
-		CDF98D141E1BB36500CE90C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF98D131E1BB36500CE90C0 /* AppDelegate.m */; };
-		CDF98D171E1BB36500CE90C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF98D161E1BB36500CE90C0 /* ViewController.m */; };
 		CDF98D1A1E1BB36500CE90C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF98D181E1BB36500CE90C0 /* Main.storyboard */; };
 		CDF98D1C1E1BB36500CE90C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF98D1B1E1BB36500CE90C0 /* Assets.xcassets */; };
 		CDF98D1F1E1BB36500CE90C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF98D1D1E1BB36500CE90C0 /* LaunchScreen.storyboard */; };
+		CDF98D301E1BB3FA00CE90C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF98D2F1E1BB3FA00CE90C0 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD09ED851E1BB8630010A137 /* LLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLViewController.h; sourceTree = "<group>"; };
+		CD09ED861E1BB8630010A137 /* LLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLViewController.m; sourceTree = "<group>"; };
+		CD09ED881E1BBA970010A137 /* cars_simple.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_simple.plist; sourceTree = "<group>"; };
+		CD09ED8A1E1BBBE80010A137 /* LLCarGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCarGroup.h; sourceTree = "<group>"; };
+		CD09ED8B1E1BBBE80010A137 /* LLCarGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCarGroup.m; sourceTree = "<group>"; };
 		CDF98D0C1E1BB36500CE90C0 /* 汽车品牌展示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "汽车品牌展示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF98D101E1BB36500CE90C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CDF98D121E1BB36500CE90C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CDF98D131E1BB36500CE90C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CDF98D151E1BB36500CE90C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CDF98D161E1BB36500CE90C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CDF98D191E1BB36500CE90C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDF98D1B1E1BB36500CE90C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF98D1E1E1BB36500CE90C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDF98D201E1BB36500CE90C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF98D2E1E1BB3FA00CE90C0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDF98D2F1E1BB3FA00CE90C0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +63,8 @@
 		CDF98D0E1E1BB36500CE90C0 /* 汽车品牌展示 */ = {
 			isa = PBXGroup;
 			children = (
-				CDF98D121E1BB36500CE90C0 /* AppDelegate.h */,
-				CDF98D131E1BB36500CE90C0 /* AppDelegate.m */,
-				CDF98D151E1BB36500CE90C0 /* ViewController.h */,
-				CDF98D161E1BB36500CE90C0 /* ViewController.m */,
-				CDF98D181E1BB36500CE90C0 /* Main.storyboard */,
-				CDF98D1B1E1BB36500CE90C0 /* Assets.xcassets */,
-				CDF98D1D1E1BB36500CE90C0 /* LaunchScreen.storyboard */,
-				CDF98D201E1BB36500CE90C0 /* Info.plist */,
+				CDF98D261E1BB3FA00CE90C0 /* Car */,
+				CDF98D2D1E1BB3FA00CE90C0 /* Other */,
 				CDF98D0F1E1BB36500CE90C0 /* Supporting Files */,
 			);
 			path = "汽车品牌展示";
@@ -74,9 +73,66 @@
 		CDF98D0F1E1BB36500CE90C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CDF98D181E1BB36500CE90C0 /* Main.storyboard */,
+				CDF98D1B1E1BB36500CE90C0 /* Assets.xcassets */,
+				CDF98D1D1E1BB36500CE90C0 /* LaunchScreen.storyboard */,
+				CDF98D201E1BB36500CE90C0 /* Info.plist */,
 				CDF98D101E1BB36500CE90C0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDF98D261E1BB3FA00CE90C0 /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				CDF98D271E1BB3FA00CE90C0 /* Controller */,
+				CDF98D281E1BB3FA00CE90C0 /* Model */,
+				CDF98D2A1E1BB3FA00CE90C0 /* Other */,
+				CDF98D2B1E1BB3FA00CE90C0 /* View */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		CDF98D271E1BB3FA00CE90C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD09ED851E1BB8630010A137 /* LLViewController.h */,
+				CD09ED861E1BB8630010A137 /* LLViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDF98D281E1BB3FA00CE90C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD09ED8A1E1BBBE80010A137 /* LLCarGroup.h */,
+				CD09ED8B1E1BBBE80010A137 /* LLCarGroup.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDF98D2A1E1BB3FA00CE90C0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CD09ED881E1BBA970010A137 /* cars_simple.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CDF98D2B1E1BB3FA00CE90C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDF98D2D1E1BB3FA00CE90C0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CDF98D2E1E1BB3FA00CE90C0 /* AppDelegate.h */,
+				CDF98D2F1E1BB3FA00CE90C0 /* AppDelegate.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +161,7 @@
 		CDF98D041E1BB36500CE90C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LL;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = LockLight;
 				TargetAttributes = {
@@ -139,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDF98D1F1E1BB36500CE90C0 /* LaunchScreen.storyboard in Resources */,
+				CD09ED891E1BBA970010A137 /* cars_simple.plist in Resources */,
 				CDF98D1C1E1BB36500CE90C0 /* Assets.xcassets in Resources */,
 				CDF98D1A1E1BB36500CE90C0 /* Main.storyboard in Resources */,
 			);
@@ -151,9 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF98D171E1BB36500CE90C0 /* ViewController.m in Sources */,
-				CDF98D141E1BB36500CE90C0 /* AppDelegate.m in Sources */,
+				CDF98D301E1BB3FA00CE90C0 /* AppDelegate.m in Sources */,
 				CDF98D111E1BB36500CE90C0 /* main.m in Sources */,
+				CD09ED8C1E1BBBE80010A137 /* LLCarGroup.m in Sources */,
+				CD09ED871E1BB8630010A137 /* LLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +369,7 @@
 				CDF98D251E1BB36500CE90C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
