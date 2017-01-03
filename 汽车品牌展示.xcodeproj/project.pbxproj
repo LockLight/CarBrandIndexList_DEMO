@@ -10,6 +10,8 @@
 		CD09ED871E1BB8630010A137 /* LLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD09ED861E1BB8630010A137 /* LLViewController.m */; };
 		CD09ED891E1BBA970010A137 /* cars_simple.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD09ED881E1BBA970010A137 /* cars_simple.plist */; };
 		CD09ED8C1E1BBBE80010A137 /* LLCarGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = CD09ED8B1E1BBBE80010A137 /* LLCarGroup.m */; };
+		CD1325261E1BCCA2001AEBBD /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD1325251E1BCCA2001AEBBD /* cars_total.plist */; };
+		CD1325291E1BCCC0001AEBBD /* LLCars.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1325281E1BCCC0001AEBBD /* LLCars.m */; };
 		CDF98D111E1BB36500CE90C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF98D101E1BB36500CE90C0 /* main.m */; };
 		CDF98D1A1E1BB36500CE90C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF98D181E1BB36500CE90C0 /* Main.storyboard */; };
 		CDF98D1C1E1BB36500CE90C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF98D1B1E1BB36500CE90C0 /* Assets.xcassets */; };
@@ -23,6 +25,9 @@
 		CD09ED881E1BBA970010A137 /* cars_simple.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_simple.plist; sourceTree = "<group>"; };
 		CD09ED8A1E1BBBE80010A137 /* LLCarGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCarGroup.h; sourceTree = "<group>"; };
 		CD09ED8B1E1BBBE80010A137 /* LLCarGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCarGroup.m; sourceTree = "<group>"; };
+		CD1325251E1BCCA2001AEBBD /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
+		CD1325271E1BCCC0001AEBBD /* LLCars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCars.h; sourceTree = "<group>"; };
+		CD1325281E1BCCC0001AEBBD /* LLCars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCars.m; sourceTree = "<group>"; };
 		CDF98D0C1E1BB36500CE90C0 /* 汽车品牌展示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "汽车品牌展示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF98D101E1BB36500CE90C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDF98D191E1BB36500CE90C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,6 +112,8 @@
 			children = (
 				CD09ED8A1E1BBBE80010A137 /* LLCarGroup.h */,
 				CD09ED8B1E1BBBE80010A137 /* LLCarGroup.m */,
+				CD1325271E1BCCC0001AEBBD /* LLCars.h */,
+				CD1325281E1BCCC0001AEBBD /* LLCars.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,6 +121,7 @@
 		CDF98D2A1E1BB3FA00CE90C0 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				CD1325251E1BCCA2001AEBBD /* cars_total.plist */,
 				CD09ED881E1BBA970010A137 /* cars_simple.plist */,
 			);
 			path = Other;
@@ -195,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1325261E1BCCA2001AEBBD /* cars_total.plist in Resources */,
 				CDF98D1F1E1BB36500CE90C0 /* LaunchScreen.storyboard in Resources */,
 				CD09ED891E1BBA970010A137 /* cars_simple.plist in Resources */,
 				CDF98D1C1E1BB36500CE90C0 /* Assets.xcassets in Resources */,
@@ -209,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1325291E1BCCC0001AEBBD /* LLCars.m in Sources */,
 				CDF98D301E1BB3FA00CE90C0 /* AppDelegate.m in Sources */,
 				CDF98D111E1BB36500CE90C0 /* main.m in Sources */,
 				CD09ED8C1E1BBBE80010A137 /* LLCarGroup.m in Sources */,

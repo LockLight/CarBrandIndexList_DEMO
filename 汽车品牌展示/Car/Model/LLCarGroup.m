@@ -11,10 +11,14 @@
 @implementation LLCarGroup
 
 +(instancetype)carGroupWithDict:(NSDictionary *)dict{
-    //创建类对象
-    LLCarGroup *carGroup = [[LLCarGroup alloc]init];
-    //通过KVO,将字典转换为控件属性
-    [carGroup setValuesForKeysWithDictionary:dict];
-    return carGroup;
+    return [[self alloc]initWithDict:dict];
+}
+
+- (instancetype)initWithDict:(NSDictionary *)dict{
+    self = [super init];
+    if(self){
+        [self setValuesForKeysWithDictionary:dict];
+    }
+    return self;
 }
 @end

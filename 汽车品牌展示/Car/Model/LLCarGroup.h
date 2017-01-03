@@ -10,11 +10,12 @@
 
 @interface LLCarGroup : NSObject
 
+//
 @property (nonatomic, strong) NSArray *cars;
 @property (nonatomic, copy) NSString *title;
-@property (nonatomic, copy) NSString *desc;
 
 
-+(instancetype)carGroupWithDict:(NSDictionary *)dict;
++ (instancetype)carGroupWithDict:(NSDictionary *)dict;
+- (instancetype)initWithDict:(NSDictionary *)dict;
 
 @end
